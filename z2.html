@@ -1,0 +1,29 @@
+<html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title> Zadanie 2 </title>
+<script language="JavaScript">
+let a = prompt('podaj wyraz a')
+let b = prompt('podaj wyraz b')
+
+let spacje = ''
+
+for (i = 1; i <= (b.length - 1) / 2; i++) {
+  spacje += '&nbsp;'
+}
+
+for (let i = 1; i <= a.length; i++) {
+  document.write(spacje + '*<br>')
+}
+
+let gwiazdki = ''
+for (let i = 1; i <= b.length; i++) {
+  gwiazdki = gwiazdki + '*'
+}
+document.write(gwiazdki)
+</script>
+</head>
+<body>
+</body>
+</html>
